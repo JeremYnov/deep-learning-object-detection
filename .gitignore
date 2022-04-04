@@ -86,3 +86,6 @@ __logger/*
 /tmp_data/
 /data/*
 /spark-jars/*
+
+*data.zip
+venv/
