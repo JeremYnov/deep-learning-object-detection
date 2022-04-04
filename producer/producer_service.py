@@ -11,7 +11,7 @@ from utils import (
 from crypto_repository import CryptoAPI
 
 
-COIN_PAGE = "https://api.coinranking.com/v1/public/coins"
+COIN_PAGE = "https://api.coinranking.com/v2/coins"
 LOGGER = set_logger("producer_logger")
 PARENT_PATH = os.fspath(Path(__file__).parents[1])
 CONFIG_PATH = os.path.join(
